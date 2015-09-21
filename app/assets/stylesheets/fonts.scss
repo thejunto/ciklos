@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Gotham";
+  src:font-url("gotham-book-webfont.eot");
+  src:font-url("gotham-book-webfont.eot?#iefix") format("embedded-opentype"),
+      font-url("gotham-book-webfont.svg#gotham_book") format("svg"),
+      font-url("gotham-book-webfont.woff") format("woff"),
+      font-url("gotham-book-webfont.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src:font-url("gotham-light-webfont.eot");
+  src:font-url("gotham-light-webfont.eot?#iefix") format("embedded-opentype"),
+      font-url("gotham-light-webfont.svg#gotham_light") format("svg"),
+      font-url("gotham-light-webfont.woff") format("woff"),
+      font-url("gotham-light-webfont.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src:font-url("gotham-medium-webfont.eot");
+  src:font-url("gotham-medium-webfont.eot?#iefix") format("embedded-opentype"),
+      font-url("gotham-medium-webfont.svg#gotham_medium") format("svg"),
+      font-url("gotham-medium-webfont.woff") format("woff"),
+      font-url("gotham-medium-webfont.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src:font-url("gotham-bold-webfont.eot");
+  src:font-url("gotham-bold-webfont.eot?#iefix") format("embedded-opentype"),
+      font-url("gotham-bold-webfont.svg#gotham_bold") format("svg"),
+      font-url("gotham-bold-webfont.woff") format("woff"),
+      font-url("gotham-bold-webfont.ttf") format("truetype");
+  font-weight: 800;
+}

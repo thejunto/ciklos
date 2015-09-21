@@ -1,0 +1,54 @@
+.button {
+  font-weight: normal;
+  letter-spacing: normal;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  max-width: 300px;
+  opacity: 1;
+  display: inline-block;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: $border-radius;
+  text-decoration: none;
+  outline: none;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.button-primary {
+  background-color: $action-color;
+  color: white;
+
+  &:hover {
+    color: white;
+    background-color: darken($action-color, 10%);
+  }
+}
+
+.button-secondary {
+  background-color: #fff;
+  color: $grey;
+  border: 1px solid $light-grey;
+
+  &:hover {
+    color: $grey;
+    background-color: darken(#fff, 10%);
+  }
+}
+
+
+.button-small {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}

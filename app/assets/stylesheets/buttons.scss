@@ -27,22 +27,22 @@
 }
 
 .button-primary {
-  background-color: $action-color;
+  background-color: $black;
   color: white;
 
   &:hover {
     color: white;
-    background-color: darken($action-color, 10%);
+    background-color: darken($primary-color, 10%);
   }
 }
 
 .button-secondary {
   background-color: #fff;
-  color: $grey;
+  color: $light-grey;
   border: 1px solid $light-grey;
 
   &:hover {
-    color: $grey;
+    color: $light-grey;
     background-color: darken(#fff, 10%);
   }
 }

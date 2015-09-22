@@ -1,2 +1,46 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<!-- Full Page Image Background Carousel Header -->
+    <div id="myCarousel" class="carousel slide carousel-home">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                	<div class="container">
+	                	<div class="col-sm-6 stream-opportunities">
+	                		<h2>Viajes que dejan huella</h2>
+	                	</div> <!-- col end -->
+                	</div> <!-- container end -->
+            </div>
+
+            <div class="item">
+                	<div class="container">
+	                	<div class="col-sm-8 col-sm-offset-4 stream-opportunities">
+	                		<h2>Do you believe that <span class="bold">character</span> still matters?</h2>
+	                	</div> <!-- col end -->
+                	</div> <!-- container end -->
+            </div>
+
+            <div class="item">
+                  <div class="container">
+                    <div class="col-sm-6 col-sm-offset-6 stream-opportunities">
+                      <h2>Do you believe that <span class="bold">learning to be</span> and <span class="bold">learning to do</span> are more important than textbooks alone?</h2>
+                    </div> <!-- col end -->
+                  </div> <!-- container end -->
+            </div>
+
+             <div class="item">
+                  <div class="container">
+                    <div class="col-sm-6 col-sm-offset-6 stream-opportunities">
+                      <h2>Then perhaps the <br class="hidden-xs"><span class="bold"> Acton Academy</span> is for <br class="hidden-xs"> <span class="bold">you</span> and <span class="bold">your family</span></h2>
+                    </div> <!-- col end -->
+                  </div> <!-- container end -->
+            </div>
+        </div>
+        <%= link_to raw(image_tag("arrow.png", class: "arrow-rotate")) + "<br>".html_safe + "Learn More", "#acton-statement", class: "scroll see-more" %>
+	</div> <!-- end my carousel -->

@@ -1,0 +1,199 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+//* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  height: 125px;
+  @media(max-width: 767px){
+	  height: 180px;
+  }
+	/* Control buttons  */
+	.carousel-control
+	{
+	  background: none;
+	  color: white;
+	  font-size: 2.3em;
+	  text-shadow: none;
+	  margin-top: 30px;
+	}
+	/* Previous button  */
+	.carousel-control.left 
+	{
+	  left: -12px;
+	}
+	/* Next button  */
+	.carousel-control.right 
+	{
+	  right: -12px !important;
+	}
+	/* Changes the position of the indicators */
+	.carousel-indicators 
+	{
+	  right: 50%;
+	  top: auto;
+	  bottom: -4rem;
+	  margin-right: -19px;
+	}
+	/* Changes the color of the indicators */
+	.carousel-indicators li 
+	{
+	  background: #c0c0c0;
+	  width: 1.25rem;
+	  height: 1.25rem;
+	  margin: 1px;
+	}
+	.carousel-indicators .active 
+	{
+	  background: #333333;
+	}
+}
+
+
+/* End quote carousel */
+
+/* Intro carousels */
+.carousel{
+    position: relative;
+    @media(min-width: 768px){
+	    height: 80%;
+	    min-height: 500px;
+	    h1, h2 {
+			margin-top: 50px;
+			color: white;
+			font-weight: 400;
+		}
+    }
+    @media(max-width: 767px){
+    	height: 380px;
+    	h1, h2 {
+    		margin-top: 0px !important;
+    		padding: 20px 0;
+    		font-size: 1.8rem;
+    	}
+    }
+
+
+	.carousel-inner, .carousel-inner .item {
+	    height: 100%;
+	}
+
+	.carousel-indicators {
+		left: 2rem;
+		width: 100px;
+		margin-left: 0px;
+		bottom: 5px;
+		@media(max-width: 767px) {
+			left: 0rem;
+		}
+	}
+
+	.item {
+		left: 0 !important;
+		-webkit-transition: opacity 1.5s; /*adjust timing here */
+		 -moz-transition: opacity 1.5s;
+		   -o-transition: opacity 1.5s;
+		      transition: opacity 1.5s;
+        background-position: center;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	}
+
+
+	/* Fade controls with items */
+	.next.left,
+	.prev.right {
+	    opacity: 1;
+	    z-index: 1;
+	}
+	.active.left,
+	.active.right {
+	    opacity: 0;
+	    z-index: 2;
+	}
+
+	.carousel-indicators li {
+		height: 16px;
+		width: 16px;
+		margin: 3px;
+		box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+	}
+
+
+}
+
+.stream-opportunities{
+	@media(min-width: 768px) {
+		margin-top: 5rem;
+		text-align: center;
+    }
+
+}
+
+.carousel-home {
+	.item:nth-child(1) {
+		background-image: url(<%= asset_path('semuc.jpg') %>);
+		background-position: center;
+		h2 {
+			color: white;
+			@media(min-width: 768px) {
+				margin-top: 6rem;
+			}
+		}
+	}
+
+	.item:nth-child(2) {
+		background-image: url(<%= asset_path('character.jpg') %>);
+	}
+
+	.item:nth-child(3) {
+		background-image: url(<%= asset_path('more_important.jpg') %>);
+		background-position: 60% 30%;
+	}
+
+	.item:nth-child(4) {
+		background-image: url(<%= asset_path('campus.jpg') %>);
+	}
+}
+
+.carousel-learning {
+	.item:nth-child(1) {
+		background-image: url(<%= asset_path('stream_opportunites.jpg') %>);
+	}
+
+	.item:nth-child(2) {
+		background-image: url(<%= asset_path('intro_extra.jpg') %>);
+		@media(max-width: 767px) {
+			background-image: url(<%= asset_path('about2.jpg') %>);
+			background-position: 80% 50%;
+		}
+	}
+
+	.item:nth-child(3) {
+		background-image: url(<%= asset_path('new_education.jpg') %>);
+	}
+}
+
+.carousel-about {
+	.item:nth-child(1) {
+		background-image: url(<%= asset_path('homeschooling.jpg') %>);
+		@media(max-width: 767px) {
+			background-position: 80% 50%;
+		}
+	}
+	
+	.item:nth-child(2) {
+		background-image: url(<%= asset_path('friendship.jpg') %>);
+	}
+
+	.item:nth-child(3) {
+		background-image: url(<%= asset_path('individual_liberty.jpg') %>);
+		@media(max-width: 991px) {
+			background-image: url(<%= asset_path('individual_liberty2.jpg') %>);
+			background-position: 90% 50%;
+		}
+	}
+}

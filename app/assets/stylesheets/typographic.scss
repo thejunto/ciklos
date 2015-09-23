@@ -1,9 +1,9 @@
 // Titles
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: $font-train;
-  font-weight: 800;
+  font-weight: 500;
   margin: 0 0 1rem 0;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.01em;
 }
 
 h1, .h1, h1 a {
@@ -16,6 +16,7 @@ h1, .h1, h1 a {
 
 h2, .h2 {
   font-size: 2.5rem;
+  font-weight: 800;
 }
 
 h3, .h3 {
@@ -70,7 +71,7 @@ li {
 // Links
 a {
   font-size: 1.1rem;
-  color: $primary-color;
+  color: $black;
   word-wrap: break-word;
 }
 

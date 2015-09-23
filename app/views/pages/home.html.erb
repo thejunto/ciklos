@@ -13,8 +13,10 @@
         <div class="carousel-inner">
             <div class="item active">
                   <div class="container">
-                    <div class="col-sm-6 stream-opportunities">
+                    <div class="col-md-6 stream-opportunities">
                       <h1>Viajes que dejan huella</h1>
+                      <%= link_to "Conoce Más", "#conoce-más",
+        				class: "button button-primary scroll" %>
                     </div> <!-- col end -->
                   </div> <!-- container end -->
             </div>
@@ -22,7 +24,7 @@
             <div class="item">
                   <div class="container">
                     <div class="col-sm-8 col-sm-offset-4 stream-opportunities">
-                      <h2>Do you believe that <span class="bold">character</span> still matters?</h2>
+                      <h2>Experiencias</h2>
                     </div> <!-- col end -->
                   </div> <!-- container end -->
             </div>
@@ -30,7 +32,7 @@
             <div class="item">
                   <div class="container">
                     <div class="col-sm-6 col-sm-offset-6 stream-opportunities">
-                      <h2>Do you believe that <span class="bold">learning to be</span> and <span class="bold">learning to do</span> are more important than textbooks alone?</h2>
+                      <h2>Nuestros Tours</h2>
                     </div> <!-- col end -->
                   </div> <!-- container end -->
             </div>
@@ -38,39 +40,38 @@
              <div class="item">
                   <div class="container">
                     <div class="col-sm-6 col-sm-offset-6 stream-opportunities">
-                      <h2>Then perhaps the <br class="hidden-xs"><span class="bold"> Acton Academy</span> is for <br class="hidden-xs"> <span class="bold">you</span> and <span class="bold">your family</span></h2>
+                      <h2>Proyectos</span></h2>
                     </div> <!-- col end -->
                   </div> <!-- container end -->
             </div>
         </div>
-        <%= link_to raw(image_tag("arrow.png", class: "arrow-rotate")) + "<br>".html_safe + "Learn More", "#acton-statement", class: "scroll see-more" %>
   </div> <!-- end my carousel -->
 
 
 <section>
   <div class="container center">
-    <p>Ofrecemos viajes.. </p>
+    <h3>Con Ciklos Travel podrás vivir <span class="bold">experiencias</span> que te cambian la vida. Nuestros <span class="bold">tours</span> están hechos no sólo para que disfrutes, sino para que, a través de tu viaje, <br> apoyes <span class="bold">proyectos</span> de desarrollo cultural y educativo <br> en distintas áreas de Guatemala.</h3>
   </div>
 </section>
 
 <section id="experiencias", class="bg-grey center">
   <div class="container">
     <h2>Experiencias</h2>
-    <p></p>
+    <p>Todos nuestros tours incluyen experiencias de aventura, cultura y gastronomía. </p>
     <div class="row">
       <div class="col-sm-6">
-        <%= image_tag "", class: "img-responsive center-block" %>
+        <%= image_tag "gente.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-6">
-        <%= image_tag "", class: "img-responsive center-block" %>
+        <%= image_tag "cultura.jpg", class: "img-responsive center-block" %>
       </div>
     </div> <!-- end row 1 -->
-    <div class="row">
+   	<div class="row">
       <div class="col-sm-6">
-        <%= image_tag "", class: "img-responsive center-block" %>
+        <%= image_tag "aventura.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-6">
-        <%= image_tag "", class: "img-responsive center-block" %>
+        <%= image_tag "lugares.jpg", class: "img-responsive center-block" %>
       </div>
     </div> <!-- end row 2 -->
   </div>
@@ -80,27 +81,28 @@
   <div class="container">
     <h2>Tours</h2>
     <p>
+    	Haz click en un tour para descubrir más detalles. 
     </p>
     <div class="row">
       <div class="col-sm-4">
-        <%= image_tag "coach.png", class: "img-responsive center-block" %>
+        <%= image_tag "tour-1.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-4">
-        <%= image_tag "coach.png", class: "img-responsive center-block" %>
+        <%= image_tag "tour-2.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-4">
-        <%= image_tag "coach.png", class: "img-responsive center-block" %>
+        <%= image_tag "tour-3.jpg", class: "img-responsive center-block" %>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-4">
-        <%= image_tag "coach.png", class: "img-responsive center-block" %>
+        <%= image_tag "tour-4.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-4">
-        <%= image_tag "coach.png", class: "img-responsive center-block" %>
+        <%= image_tag "tour-5.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-4">
-        <%= image_tag "coach.png", class: "img-responsive center-block" %>
+        <%= image_tag "tour-6.jpg", class: "img-responsive center-block" %>
       </div>
     </div>
   </div>

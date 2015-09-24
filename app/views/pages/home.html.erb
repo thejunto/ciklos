@@ -16,7 +16,7 @@
                     <div class="col-md-6 stream-opportunities">
                       <h1>Viajes que dejan huella</h1>
                       <%= link_to "Conoce Más", "#conoce-más",
-        				class: "button button-primary scroll" %>
+                class: "button button-primary scroll" %>
                     </div> <!-- col end -->
                   </div> <!-- container end -->
             </div>
@@ -54,37 +54,17 @@
   </div>
 </section>
 
-<section id="experiencias", class="bg-grey center">
-  <div class="container">
-    <h2>Experiencias</h2>
-    <p>Todos nuestros tours incluyen experiencias de aventura, cultura y gastronomía. </p>
-    <div class="row">
-      <div class="col-sm-6">
-        <%= image_tag "gente.jpg", class: "img-responsive center-block" %>
-      </div>
-      <div class="col-sm-6">
-        <%= image_tag "cultura.jpg", class: "img-responsive center-block" %>
-      </div>
-    </div> <!-- end row 1 -->
-   	<div class="row">
-      <div class="col-sm-6">
-        <%= image_tag "aventura.jpg", class: "img-responsive center-block" %>
-      </div>
-      <div class="col-sm-6">
-        <%= image_tag "lugares.jpg", class: "img-responsive center-block" %>
-      </div>
-    </div> <!-- end row 2 -->
-  </div>
-</section>
+<%= render 'layouts/experiencias' %>
+
 
 <section class="center">
   <div class="container">
     <h2>Tours</h2>
     <p>
-    	Haz click en un tour para descubrir más detalles. 
+      Haz click en un tour para descubrir más detalles.
     </p>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6">
         <%= image_tag "tour-1.jpg", class: "img-responsive center-block" %>
       </div>
       <div class="col-sm-4">

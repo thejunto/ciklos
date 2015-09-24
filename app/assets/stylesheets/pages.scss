@@ -1,7 +1,59 @@
-.experiencias {
+#experiencias {
+  img {
+    margin: 2rem 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    text-align: center;
+  }
+
+  ul li {
+    display: inline-block;
+    height:266px;
+    width:400px;
+    margin: 0 1rem 1rem 0;
+    position: relative;
+  }
+
+  span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  span.text-content {
+    margin: 2rem 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height:266px;
+    width:400px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    border-radius: 3px;
+    opacity: 0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+
+    p {
+      text-transform:none;
+      color: white;
+    }
+  }
+
+  ul li:hover span.text-content {
+    opacity: 1;
+  }
 
 }
 
 .tours {
-	padding: 12rem 0;
+  padding: 12rem 0;
 }
